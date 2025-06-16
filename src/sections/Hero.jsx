@@ -59,16 +59,7 @@ const Hero = () => {
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
-          </div>
-        </header>
-
-        {/* RIGHT: 3D Model or Visual */}
-        <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
-          </div>
-        </figure>
-        <div className='absolute xs:bottom-[500px]  bottom-[-20px] w-full flex justify-center items-center'>
+        <div className='z-[1000] w-full flex justify-center items-center'>
           <a href='#counter'>
             <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
               <div
@@ -77,6 +68,16 @@ const Hero = () => {
             </div>
           </a>
         </div>
+          </div>
+        </header>
+
+
+        {/* RIGHT: 3D Model or Visual */}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
 
       <AnimatedCounter />
