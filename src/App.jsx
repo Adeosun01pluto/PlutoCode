@@ -17,7 +17,7 @@ const App = () => (
     <LogoShowcase />
     <FeatureCards />
     <Experience />
-    <TechStack />
+    {/* <TechStack /> */}
     <Testimonials />
     <Contact />
     <Footer />

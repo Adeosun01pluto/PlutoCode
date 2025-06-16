@@ -9,6 +9,7 @@ const AppShowcase = () => {
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
+  const handyRide = useRef(null);
   const ycDirectoryRef = useRef(null);
 
   useGSAP(() => {
@@ -20,7 +21,7 @@ const AppShowcase = () => {
     );
 
     // Animations for each app showcase
-    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
+    const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current, handyRide.current];
 
     cards.forEach((card, index) => {
       gsap.fromTo(
@@ -49,15 +50,15 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/handyride.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                called HandyRide
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                A Web app built with React, TailwindCSS, Firebase for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -67,20 +68,57 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/quicktax.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>An intuitive web application designed to simplify tax preparation</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/jhay.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Local peer-to-peer Crypto platform </h2>
             </div>
           </div>
+        </div>
+        <div className="showcaselayout my-12">
+        
+          <div className="project-list-wrapper overflow-hidden">
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper bg-[#FFEFDB]">
+                <img
+                  src="/images/propsure.png"
+                  alt="Property Management Platform"
+                />
+              </div>
+              <h2>The Property Management Platform</h2>
+            </div>
+
+            <div className="project" ref={ycDirectoryRef}>
+              <div className="image-wrapper bg-[#FFE7EB]">
+                <img src="/images/fleettracker.png" alt="YC Directory App" />
+              </div>
+              <h2>The Fleet Management Platform</h2>
+            </div>
+          </div>
+
+          <div ref={rydeRef} className="first-project-wrapper">
+            <div className="image-wrapper">
+              <img src="/images/wanderwise.png" alt="Ryde App Interface" />
+            </div>
+            <div className="text-content">
+              <h2>
+                An intelligent travel planning platform providing users with personalized recommendations
+              </h2>
+              <p className="text-white-50 md:text-xl">
+                Built with HTML, React JS, TailwindCSS for a fast,
+                user-friendly experience.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
