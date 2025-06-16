@@ -61,9 +61,9 @@ const Hero = () => {
             />
         <div className='z-[1000] w-full flex justify-center items-center'>
           <a href='#counter'>
-            <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <div className='w-[35px] h-[64px] rounded-3xl border-4 border-gray-100/60 flex justify-center items-start p-2'>
               <div
-                className='w-3 h-3 rounded-full bg-red-500 mb-1'
+                className='w-3 h-3 rounded-full bg-red-500/50 mb-1'
               />
             </div>
           </a>
