@@ -51,8 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Hi, I’m Adeosun, I build stunning user interfaces and web applications
             </p>
 
             <Button
@@ -69,6 +68,15 @@ const Hero = () => {
             <HeroExperience />
           </div>
         </figure>
+        <div className='absolute xs:bottom-[500px]  bottom-[-20px] w-full flex justify-center items-center'>
+          <a href='#counter'>
+            <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+              <div
+                className='w-3 h-3 rounded-full bg-red-500 mb-1'
+              />
+            </div>
+          </a>
+        </div>
       </div>
 
       <AnimatedCounter />

@@ -7,10 +7,10 @@ const navLinks = [
     name: "Experience",
     link: "#experience",
   },
-  {
-    name: "Skills",
-    link: "#skills",
-  },
+  // {
+  //   name: "Skills",
+  //   link: "#skills",
+  // },
   {
     name: "Testimonials",
     link: "#testimonials",
@@ -147,41 +147,57 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Pluto brought creativity and precision to the team, delivering a smooth user experience with real-time logistics and order tracking features. His frontend work helped HandyRide launch faster.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Frontend Engineer (Contract)",
+    date: "April 2025 - June 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed and maintained the HandyRide.ng logistics and food delivery platform with real-time tracking.",
+      "Implemented real-time features and order updates using Firebase.",
+      "Built responsive UIs with React.js and Tailwind CSS optimized for mobile users.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Working with Pluto was seamless—he translated ideas into functional, scalable applications. Every delivery was top-notch and efficient.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Frontend Developer (Freelance)",
+    date: "2024 - 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built and deployed responsive web apps for clients using React.js, TypeScript, and Tailwind CSS.",
+      "Collaborated with clients to understand needs and deliver tailored digital solutions.",
+      "Focused on building accessible and scalable frontend components.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Pluto’s teaching style was hands-on and impactful. He helped our students grasp complex frontend concepts with ease.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Frontend Development Instructor",
+    date: "September 2023 - April 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Taught React.js, Next.js, and Tailwind CSS through live projects and mentorship sessions.",
+      "Reviewed students’ code, ensuring clean, optimized, and scalable solutions.",
+      "Guided learners in debugging, UI/UX design, and performance tuning.",
     ],
   },
+  // {
+  //   review:
+  //     "Pluto’s work on the Jhay platform was a game changer. He delivered real-time features and a clean UI that users loved.",
+  //   imgPath: "/images/exp4.png",
+  //   logoPath: "/images/logo4.png",
+  //   title: "Frontend Engineer (Contract)",
+  //   date: "January 2023 - March 2023",
+  //   responsibilities: [
+  //     "Developed Jhay, a P2P transaction platform with secure login and real-time updates using Firebase.",
+  //     "Built intuitive chat features and live transaction tracking.",
+  //     "Crafted sleek and responsive UI components with React.js and Tailwind CSS.",
+  //   ],
+  // },
 ];
 
 const expLogos = [
@@ -201,45 +217,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Chika Nwosu",
+    mentions: "@chika-handyride",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Pluto delivered a frontend that truly elevated the HandyRide platform. The real-time features and mobile responsiveness he implemented made a huge difference in how our customers interact with the service. Highly dependable and quick to respond.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Tolu Adebayo",
+    mentions: "@tolu_uiux",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "As a designer, I’ve worked with several frontend devs, but Pluto stands out. He translated my Figma designs into pixel-perfect components using React and Tailwind. Always collaborative and solution-driven.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "James Owolabi",
+    mentions: "@jameso.dev",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Pluto was the lead frontend developer on the Jhay P2P project, and his work was crucial in launching on time. From real-time chat to live transaction updates, he handled everything with precision and speed.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Sarah Benson",
+    mentions: "@sarahcodes",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Pluto mentored our dev cohort at Alpha Tech Hub and brought an incredible energy to the classroom. His teaching made complex topics like React hooks and API integrations easy to grasp. The students loved him!",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "David Ajayi",
+    mentions: "@davtechagency",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "We hired Pluto to build a landing page for a product launch. He exceeded expectations, delivering fast-loading, responsive pages that helped us convert more users. Professional and creative!",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Halima Yusuf",
+    mentions: "@halimastudio",
+    review:
+      "Pluto’s freelance work for my photography portfolio site was flawless. He implemented animations, galleries, and a contact form with perfect responsiveness across devices. Super reliable and easy to work with.",
     imgPath: "/images/client6.png",
   },
 ];
