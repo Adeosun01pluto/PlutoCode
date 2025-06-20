@@ -42,7 +42,8 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
+        <a href="https://wa.me/2347040877605" target="_blank"
+              rel="noopener noreferrer" className="contact-btn group">
           <div className="inner">
             <span>Contact me</span>
           </div>

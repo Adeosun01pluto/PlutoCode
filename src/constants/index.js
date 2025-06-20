@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
+  { value: 7, suffix: "+", label: "Years of Experience" },
+  { value: 85, suffix: "+", label: "Satisfied Clients" },
   { value: 108, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
@@ -260,25 +260,29 @@ const testimonials = [
   },
 ];
 
+
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "whatsapp",
+    imgPath: "/images/whatsapp.png", // Make sure you have a whatsapp.png image in your public/images folder
+    link: "https://wa.me/417040877605", // Updated for Switzerland (41) and your number, assuming local format
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
+    name: "x", // This is for Twitter
     imgPath: "/images/x.png",
+    link: "https://x.com/engineer_pluto",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/adeosun-pluto-11489a24b/",
   },
-];
-
+  {
+    name: "tiktok", // Make sure you have a tiktok.png image
+    imgPath: "/images/tiktok.png",
+    link: "https://www.tiktok.com/@codeby_pluto", // TikTok profile URL
+  }
+]
 export {
   words,
   abilities,
