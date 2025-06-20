@@ -10,7 +10,7 @@ body {
   width: 100dvw;
   overflow-x: hidden;
   background-color: black;
-  color: white;
+  color: #fff;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
 }
@@ -21,7 +21,7 @@ section {
 
 @theme {
   --font-sans: "Mona Sans", sans-serif;
-  --color-white-50: #d9ecff;
+  --color-white-50: #CFFE02;
   --color-black-50: #1c1c21;
   --color-black-100: #0e0e10;
   --color-black-200: #282732;
@@ -370,9 +370,9 @@ section {
     0deg,
     rgba(69, 222, 196, 0) 0%,
     #62e0ff 25%,
-    #52aeff 37.51%,
-    #fd5c79 62.83%,
-    #6d45ce 92.91%
+    #CFFE02 37.51%,
+    orange 62.83%,
+    red 92.91%
   );
 }
 
