@@ -43,12 +43,21 @@ const AppShowcase = () => {
       );
     });
   }, []);
-
+    // Handler to open project URL
+  const handleProjectClick = (url) => {
+    if (url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    } else {
+      console.warn("No URL provided for this project.");
+    }
+  };
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
         <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={rydeRef} className="first-project-wrapper"
+            onClick={() => handleProjectClick("https://handyride.ng/")}
+          >
             <div className="image-wrapper">
               <img src="/images/handyride.png" alt="Ryde App Interface" />
             </div>
@@ -65,46 +74,56 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={libraryRef}
+              onClick={() => handleProjectClick("https://urbandrip.vercel.app/")}
+            >
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/quicktax.png"
+                  src="/images/Urbandrip.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>An intuitive web application designed to simplify tax preparation</h2>
+              <h3>UrbanDrip is a modern e-commerce platform specializing in unisex streetwear.</h3>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={ycDirectoryRef}
+              onClick={() => handleProjectClick("https://jhayexchange.netlify.app/")}
+            >
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/jhay.png" alt="YC Directory App" />
               </div>
-              <h2>Local peer-to-peer Crypto platform </h2>
+              <h3>Local peer-to-peer Crypto platform </h3>
             </div>
           </div>
         </div>
         <div className="showcaselayout my-12">
         
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
+            <div className="project" ref={libraryRef}
+              onClick={() => handleProjectClick("https://propsure.vercel.app/")}
+            >
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/propsure.png"
                   alt="Property Management Platform"
                 />
               </div>
-              <h2>The Property Management Platform</h2>
+              <h3>The Property Management Platform</h3>
             </div>
 
-            <div className="project" ref={ycDirectoryRef}>
+            <div className="project" ref={ycDirectoryRef}
+              onClick={() => handleProjectClick("https://quicktaxx.vercel.app/")}
+            >
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/fleettracker.png" alt="YC Directory App" />
+                <img src="/images/quicktax.png" alt="Library Management Platform" />
               </div>
-              <h2>The Fleet Management Platform</h2>
+              <h3>An intuitive web application designed to simplify tax preparation</h3>
             </div>
           </div>
 
-          <div ref={rydeRef} className="first-project-wrapper">
+          <div ref={rydeRef} className="first-project-wrapper"
+            onClick={() => handleProjectClick("https://wanderwisee.vercel.app/")}
+          >
             <div className="image-wrapper">
               <img src="/images/wanderwise.png" alt="Ryde App Interface" />
             </div>
