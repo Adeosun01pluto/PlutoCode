@@ -7,7 +7,7 @@ const Footer = () => {
   {
     name: "whatsapp",
     Icon: FaWhatsapp, // Using the imported React Icon component
-    link: "https://wa.me/2347040877605", // Assuming current location Switzerland, and number format
+    link: "http://wa.me/2348119760275", // Assuming current location Switzerland, and number format
   },
   {
     name: "x", // For Twitter, FaTwitter is commonly used
